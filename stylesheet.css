@@ -1,0 +1,15 @@
+.nav_Container{
+    background-color: red;
+    height: 5rem;
+    width: 100%;
+    margin: 0;
+    box-shadow: gray;
+    display: grid;
+}
+.nav_links{
+        display: flex;
+    flex-direction: column;
+
+    padding: .5rem;
+}
+/* hello */
