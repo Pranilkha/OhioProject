@@ -51,6 +51,8 @@
 }
 .footer_Container .row{
    align-items: center;
+   justify-content: center;
+   padding-top: 5%;
 }
 /* workcited */
 .workCited_card{
