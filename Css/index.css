@@ -1,0 +1,77 @@
+.nav_Container{
+    background-color: #881d2e;
+    height: 4rem;
+    width: 100%;
+    box-shadow: #808080;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.nav_Container .row{
+    width: 100%;
+}
+.nav_Logo{
+    height: max-content;
+    width: max-content;
+    
+}
+.nav_links a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav_links{
+    height: 4rem;
+    width: auto;
+    text-align: center;
+    
+
+}
+.nav_links ul{
+    display: flex;
+    
+}
+.navitem{
+    font-weight: 600;
+    list-style: none;
+    padding: .5rem;
+        transition: ease-in-out .3s;
+}
+.navitem:hover{
+    cursor:pointer;
+    transform: scale(1.2);
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+    
+}
+
+/* Footer */
+.footer_Container{
+    margin-top: 15rem;
+    background-color: #881d2e;
+    height: 25rem;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    font: "Source Sans Pro", Tahoma, Verdana, Segoe, sans-serif;
+}
+.footer_Container .row{
+   align-items: center;
+   justify-content: center;
+   padding-top: 5%;
+}
+/* workcited */
+.workCited_card{
+    height: 14rem;
+    width: 10rem;
+}
+/*Creator card*/
+.Creator_card{
+    height: 14rem;
+    width: 10rem;
+}
+.Shoutouts_card{
+    height: 14rem;
+    width: 10rem;
+}
