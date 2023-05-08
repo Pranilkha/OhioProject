@@ -45,6 +45,13 @@
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
     
 }
+/* The title of the first page */
+.title-index-font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+}
 
 /* Footer */
 .footer_Container{
@@ -74,4 +81,116 @@
 .Shoutouts_card{
     height: 14rem;
     width: 10rem;
+}
+.mySlides{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.div-for-photo{
+    display: flex;
+    flex-direction: column;
+    background-color: #0039a6;
+    height: 650px;
+
+}
+h5
+{
+  margin:0px;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+p
+{
+  font-size:12px;
+}
+
+.center
+{
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End Non-Essential  */
+
+.property-card
+{
+  height:400px;
+  width:400px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:rows;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+
+.property-image
+{
+  height:400px;
+  width:400px;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/e1/f7/d3/visit-wildlights-at-the.jpg?w=1200&h=-1&s=1');
+  background-size:cover;
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  height:12px;
+  width:12px;
+  position:absolute;
+  margin-top: 76%;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+/* Property Cards Hover States */
+
+.property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+.property-card:hover .property-image
+{
+  height:18em;
+}
+
+.property-card:hover .property-social-icons
+{
+  background-color:white;
+}
+
+.property-card:hover .property-social-icons:hover
+{
+  background-color:blue;
+  cursor:pointer;
+}
+
+.card-divs{
+    margin-top: -10%;
+    margin-right: 55%;
+    height: 600px;
 }
