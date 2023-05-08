@@ -1,0 +1,36 @@
+.card_Container{
+    background-color: #001C5A;
+    height: fit-content
+}
+.card_Container .row{
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+.card1{
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+    margin: 2rem;
+    background-color: #881d2e;
+    height: 20rem;
+    width: 15rem;
+} 
+.card1:nth-child(3){
+    background-image: url(/images/CogoBike.jpg);
+}
+/* background-image: linear-gradient(to right, #1d47a3 0%, #003986 10% ); */
+.card1:first-child:hover{
+    transform: scale(1.1);
+    transition: ease-in-out .2s;
+    margin:   0 4rem;    
+}
+.card1:last-child:hover{
+    transform: scale(1.1);
+    transition: ease-in-out .2s;
+    margin: 0 4rem;
+}
+.card1:nth-child(2):hover{
+    transform: scale(1.1);
+    transition: ease-in-out .2s;
+    margin: 0 4rem;
+}
