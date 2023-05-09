@@ -1,196 +1,236 @@
-.nav_Container{
-    background-color: #881d2e;
-    height: 4rem;
-    width: 100%;
-    box-shadow: #808080;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    color: white;
-}
-.nav_Container .row{
-    width: 100%;
-}
-.nav_Logo{
-    height: max-content;
-    width: max-content;
-    
-}
-.nav_links a{
-    color: white;
-    text-decoration: none;
+.nav_Container {
+  background-color: #881d2e;
+  height: 4rem;
+  width: 100%;
+  box-shadow: #808080;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: white;
 }
 
-.nav_links{
-    height: 4rem;
-    width: auto;
-    text-align: center;
-    
+.nav_Container .row {
+  width: 100%;
+}
+
+.nav_Logo {
+  height: max-content;
+  width: max-content;
 
 }
-.nav_links ul{
-    display: flex;
-    
+
+.nav_links a {
+  color: white;
+  text-decoration: none;
 }
-.navitem{
-    font-weight: 600;
-    list-style: none;
-    padding: .5rem;
-        transition: ease-in-out .3s;
+
+.nav_links {
+  height: 4rem;
+  width: auto;
+  text-align: center;
+
+
 }
-.navitem:hover{
-    cursor:pointer;
-    transform: scale(1.2);
-    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
-    
+
+.nav_links ul {
+  display: flex;
+
 }
+
+.navitem {
+  font-weight: 600;
+  list-style: none;
+  padding: .5rem;
+  transition: ease-in-out .3s;
+}
+
+.navitem:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+
+}
+
 /* The title of the first page */
-.title-index-font{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    justify-content: center;
-    font-size: 50px;
+.title-index-font {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
 }
 
 /* Footer */
-.footer_Container{
-    margin-top: 15rem;
-    background-color: #881d2e;
-    height: 25rem;
-    width: 100%;
-    padding: 1rem;
-    color: white;
-    font: "Source Sans Pro", Tahoma, Verdana, Segoe, sans-serif;
+.footer_Container {
+  margin-top: 15rem;
+  background-color: #881d2e;
+  height: 25rem;
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  font: "Source Sans Pro", Tahoma, Verdana, Segoe, sans-serif;
 }
-.footer_Container .row{
-   align-items: center;
-   justify-content: center;
-   padding-top: 5%;
+
+.footer_Container .row {
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
 }
+
 /* workcited */
-.workCited_card{
-    height: 14rem;
-    width: 10rem;
+.workCited_card {
+  height: 14rem;
+  width: 10rem;
 }
+
 /*Creator card*/
-.Creator_card{
-    height: 14rem;
-    width: 10rem;
-}
-.Shoutouts_card{
-    height: 14rem;
-    width: 10rem;
-}
-.mySlides{
-    margin-left: 5%;
-    margin-top: 2%;
-}
-.div-for-photo{
-    display: flex;
-    flex-direction: column;
-    background-color: #0039a6;
-    height: 650px;
-
-}
-h5
-{
-  margin:0px;
-  font-size:1.4em;
-  font-weight:700;
+.Creator_card {
+  height: 14rem;
+  width: 10rem;
 }
 
-p
-{
-  font-size:12px;
+.Shoutouts_card {
+  height: 14rem;
+  width: 10rem;
 }
 
-.center
-{
-  height:100vh;
-  width:100%;
+.mySlides {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.div-for-photo {
+  display: flex;
+  flex-direction: column;
+  background-color: #0039a6;
+  height: 650px;
+
+}
+
+h5 {
+  margin: 0px;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+p {
+  font-size: 12px;
+}
+
+.center {
+  height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* https://codepen.io/markelrayes/pen/ZEGVBZm got help from here */
 /* End Non-Essential  */
 
-.property-card
-{
-  height:400px;
-  width:400px;
-  display:-webkit-box;
-  display:-ms-flexbox;
-  display:flex;
-  -webkit-box-orient:vertical;
-  -webkit-box-direction:normal;
-  -ms-flex-direction:column;
-  flex-direction:rows;
-  position:relative;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  border-radius:16px;
-  overflow:hidden;
-  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
-  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+.property-card {
+  height: 400px;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: rows;
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  overflow: hidden;
+  -webkit-box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  margin-right: 20%;
 }
 
-.property-image
-{
-  height:400px;
-  width:400px;
-  padding:1em 2em;
-  position:Absolute;
-  top:0px;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image:url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/e1/f7/d3/visit-wildlights-at-the.jpg?w=1200&h=-1&s=1');
-  background-size:cover;
+.property-image {
+  height: 400px;
+  width: 400px;
+  padding: 1em 2em;
+  position: Absolute;
+  top: 0px;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image: url('https://cdn.vox-cdn.com/thumbor/yOL3YiP0YHKYnM3DLreVa6dHXFI=/0x0:5100x3400/1200x900/filters:focal(688x1419:1504x2235)/cdn.vox-cdn.com/uploads/chorus_image/image/70652066/GettyImages_647382044.0.jpg');
+  background-size: cover;
 }
 
 /* Bottom Card Section */
 
-.property-description
-{
-  height:12px;
-  width:12px;
-  position:absolute;
+.property-description {
+  height: 12px;
+  width: 12px;
+  position: absolute;
   margin-top: 76%;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   padding: 0.5em 1em;
-  text-align:center;
+  text-align: center;
 }
 
 /* Property Cards Hover States */
 
-.property-card:hover .property-description
-{
-  height:0em;
-  padding:0px 1em;
-}
-.property-card:hover .property-image
-{
-  height:18em;
+.property-card:hover .property-description {
+  height: 0em;
+  padding: 0px 1em;
 }
 
-.property-card:hover .property-social-icons
-{
-  background-color:white;
+.property-card:hover > a > .property-image {
+  height: 18em;
 }
 
-.property-card:hover .property-social-icons:hover
-{
-  background-color:blue;
-  cursor:pointer;
+.property-card:hover > a > .property-image-2 {
+  height: 18em;
 }
 
-.card-divs{
-    margin-top: -10%;
-    margin-right: 55%;
-    height: 600px;
+.property-card:hover > a > .property-image-3 {
+  height: 18em;
+}
+
+.card-divs {
+  margin-top: -10%;
+  margin-right: 55%;
+  height: 600px;
+}
+
+.property-image-2 {
+  height: 400px;
+  width: 400px;
+  padding: 1em 2em;
+  position: Absolute;
+  top: 0px;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('https://www.sfmta.com/sites/default/files/blog/2016/All%20Nighter.jpg');
+  background-size: cover;
+}
+.card-divs-2{
+  margin-left: 20%;
+  margin-top: -41.90%;
+}
+
+.property-image-3 {
+  height: 400px;
+  width: 400px;
+  padding: 1em 2em;
+  position: Absolute;
+  top: 0px;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('https://i.insider.com/62b2aca46ab6180018cfd9cb?width=1136&format=jpeg');
+  background-size: cover;
+}
+
+.card-divs-3{
+  margin-left: 70%;
+  margin-top: -55%;
 }
