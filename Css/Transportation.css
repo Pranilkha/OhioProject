@@ -15,14 +15,19 @@
     height: 20rem;
     width: 15rem;
 } 
-.card1:nth-child(3){
+#trans2{
     background-image: url(/images/CogoBike.jpg);
+    
 }
+#trans2:hover img{
+
+}
+
 /* background-image: linear-gradient(to right, #1d47a3 0%, #003986 10% ); */
 .card1:first-child:hover{
     transform: scale(1.1);
     transition: ease-in-out .2s;
-    margin:   0 4rem;    
+    margin:  0 4rem;    
 }
 .card1:last-child:hover{
     transform: scale(1.1);
@@ -33,4 +38,5 @@
     transform: scale(1.1);
     transition: ease-in-out .2s;
     margin: 0 4rem;
+    
 }
