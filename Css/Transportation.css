@@ -1,5 +1,5 @@
 .card_Container{
-    background-color: #001C5A;
+    background-color: ;
     height: fit-content
 }
 .card_Container .row{
@@ -7,13 +7,8 @@
     justify-content: center;
     height: fit-content;
 }
-.card1{
-    border-radius: .5rem;
-    padding: 1rem 2rem;
-    margin: 2rem;
-    background-color: #881d2e;
-    height: 20rem;
-    width: 15rem;
+.card{
+ margin: 1rem;
 } 
 #trans2{
     background-image: url(/images/CogoBike.jpg);
