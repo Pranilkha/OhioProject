@@ -80,3 +80,11 @@
     text-align: center;
     justify-content: center;
 }
+.card_Container .row{
+    align-items: center;
+    justify-content: center;
+    
+}
+.card{
+    margin: 1rem;
+}

@@ -1,5 +1,6 @@
 .nav_Container {
   background-color: #881d2e;
+  background-image: url('https://blog.trekaroo.com/wp-content/uploads/2021/04/Things-to-do-in-Columbus-Ohio-with-kids.jpg');
   height: 4rem;
   width: 100%;
   box-shadow: #808080;
@@ -63,7 +64,8 @@
 /* Footer */
 .footer_Container {
   margin-top: 15rem;
-  background-color: #881d2e;
+   background-color: #881d2e; 
+  background-image: url('https://besthotelshome.com/wp-content/uploads/2021/02/Columbus-Ohio-USA-skyline-on-the-river-at-dusk-678x381.jpg') ;
   height: 25rem;
   width: 100%;
   padding: 1rem;
