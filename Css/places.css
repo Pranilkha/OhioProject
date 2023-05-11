@@ -1,5 +1,6 @@
 .nav_Container{
     background-color: #881d2e;
+    background-image: url('https://blog.trekaroo.com/wp-content/uploads/2021/04/Things-to-do-in-Columbus-Ohio-with-kids.jpg');
     height: 4rem;
     width: 100%;
     box-shadow: #808080;
@@ -87,4 +88,8 @@
 }
 .card{
     margin: 1rem;
+}
+
+.card_Container .btn-primary{
+   margin-left: 50%;
 }

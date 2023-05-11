@@ -196,6 +196,13 @@ p {
   height: 18em;
 }
 
+.property-card:hover > a > .property-image-4 {
+  height: 18em;
+}
+.property-card:hover > a > .property-image-5 {
+  height: 18em;
+}
+
 .card-divs {
   margin-top: -10%;
   margin-right: 55%;
@@ -235,4 +242,40 @@ p {
 .card-divs-3{
   margin-left: 70%;
   margin-top: -55%;
+}
+
+.card-divs-4{
+  margin-left: -37%;
+  margin-top: -25%;
+}
+
+.property-image-4 {
+  height: 400px;
+  width: 400px;
+  padding: 1em 2em;
+  position: Absolute;
+  top: 0px;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('https://www.bellhopblog.com/blog/wp-content/uploads/2019/01/Comlumbus-Skyline.jpg');
+  background-size: cover;
+}
+
+.property-image-5 {
+  height: 400px;
+  width: 400px;
+  padding: 1em 2em;
+  position: Absolute;
+  top: 0px;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F39%2F2021%2F02%2F12%2F102768028_preview-2000.jpg&q=60');
+  background-size: cover;
+}
+
+.card-divs-5{
+  margin-top: -55.5%;
+  margin-left: 20%;
 }
