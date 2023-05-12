@@ -1,5 +1,5 @@
 .card_Container{
-    
+
     height: fit-content
 }
 .card_Container .row{
@@ -10,14 +10,10 @@
 .card{
  margin: 1rem;
 } 
-#trans2{
-    background-image: url(/images/CogoBike.jpg);
+
+.footerFull{
     
 }
-#trans2:hover img{
-
-}
-
 /* background-image: linear-gradient(to right, #1d47a3 0%, #003986 10% ); */
 .card1:first-child:hover{
     transform: scale(1.1);
