@@ -41,10 +41,16 @@
     <!-- info -->
     
     <div class="container" style="padding: 1rem;">
-        <h1 style=" text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 900;">Columbus Ohio Transportation</h1>
+        <h1 style=" text-align: center;">Columbus Ohio Transportation</h1>
         <div class="card_Container">
             <div class="row">
-                <div class="card" style="width: 18rem;">
+                <p class="buttons">
+                    <button onclick="topTransportations(1)"><a class="btn btn-success btn-xs" id="top1">Top 1</a></button>
+                    <button onclick="topTransportations(3)"><a class="btn btn-success btn-xs" id="top3">Top 3</a></button>
+                    <button onclick="topTransportations(6)"><a class="btn btn-success btn-xs" id="top6">All</a></button>
+                  </p>
+              
+                <div class="card" style="width: 18rem; " id="top_1" id="top_3">
                     <img src=".//images/CogoBike.jpg" class="card-img-top" alt="Cogo Bike Share image">
                     <div class="card-body">
                       <h5 class="card-title">Cogo Bike Share</h5>
@@ -52,7 +58,7 @@
                       <a href="TransTemplate.html" class="btn btn-primary">Go somewhere</a>
                     </div>
                   </div>
-                  <div class="card" style="width: 18rem;">
+                  <div class="card" style="width: 18rem;" id="top_3">
                     <img src=".//images/cotaBus.jpg" class="card-img-top" alt="Cota Bus image">
                     <div class="card-body">
                       <h5 class="card-title">Cota Bus</h5>
@@ -60,7 +66,7 @@
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                   </div>
-                  <div class="card" style="width: 18rem;">
+                  <div class="card" style="width: 18rem;" id="top_1" id="top_3">
                     <img src=".//images/lyft1.jpg" class="card-img-top" alt="Lyft image">
                     <div class="card-body">
                       <h5 class="card-title">Lyft</h5>
@@ -70,9 +76,9 @@
                   </div>
                                     
 
-        <div class="card_Container">
+        <div class="card_Container"  >
             <div class="row">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem;" id="top_6">
                     <img src=".//images/Uber1.jpg" class="card-img-top" alt="Uber image">
                     <div class="card-body">
                       <h5 class="card-title">Uber</h5>
@@ -80,7 +86,7 @@
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                   </div>
-                  <div class="card" style="width: 18rem;">
+                  <div class="card" style="width: 18rem;" id="top_6">
                     <img src=".//images/BirdScooter.avif" class="card-img-top" alt="Bird Scooters image">
                     <div class="card-body">
                       <h5 class="card-title">Bird Scooters</h5>
@@ -88,7 +94,7 @@
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                   </div>
-                  <div class="card" style="width: 18rem;">
+                  <div class="card" style="width: 18rem;" id="top_6">
                     <img src=".//images/ZipCar.jpg" class="card-img-top" alt="ZipCar image">
                     <div class="card-body">
                       <h5 class="card-title">ZipCar</h5>

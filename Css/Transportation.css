@@ -1,3 +1,12 @@
+/* buttons custimize */
+.buttons {
+    text-align: center;
+    border-color: transparent;
+    border-style: none;
+    outline: none;
+    
+}
+
 .card_Container{
 
     height: fit-content
@@ -31,3 +40,4 @@
     margin: 0 4rem;
     
 }
+
