@@ -95,7 +95,7 @@
   text-align:center;
 }
 
-.sidenav1 a, .sidenav2 a {
+.sidenav1 a, .sidenav2 a,.sidenav3 a,.sidenav4 a, .sidenav5 a,.sidenav6 a,.sidenav7 a,.sidenav8 a{
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -105,11 +105,11 @@
 
 }
 
-.sidenav1 a:hover, .sidenav2 a:hover{
+.sidenav1 a:hover, .sidenav2 a:hover, .sidenav3 a:hover, .sidenav3 a:hover, .sidenav3 a:hover, .sidenav3 a:hover, .sidenav3 a:hover, .sidenav3 a:hover{
   color: #f1f1f1;
 }
 
-.sidenav1 .closebtn, .sidenav2 .closebtn {
+.sidenav1 .closebtn, .sidenav2 .closebtn.sidenav3 .closebtn,.sidenav4 .closebtn,.sidenav5 .closebtn,.sidenav6 .closebtn, .sidenav7 .closebtn,.sidenav8 .closebtn{
   position: absolute;
   top: 0;
   right: 25px;
@@ -118,6 +118,6 @@
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav1,.sidenav2 {padding-top: 15px;}
-  .sidenav1 a, .sidenav2 a {font-size: 18px;}
+  .sidenav1,.sidenav2,.sidenav3,.sidenav4,.sidenav5,.sidenav6,.sidenav7,.sidenav8 {padding-top: 15px;}
+  .sidenav1 a, .sidenav2 a,.sidenav3 a,.sidenav4 a, .sidenav5 a,.sidenav6 a,.sidenav7 a,.sidenav8 a{font-size: 18px;}
 }

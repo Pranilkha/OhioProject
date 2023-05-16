@@ -94,3 +94,8 @@
    margin-left: 50%;
 }
 
+.card_Container{
+    transition: margin-left .5s;
+  padding: 16px;
+}
+
