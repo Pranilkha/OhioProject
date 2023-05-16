@@ -17,9 +17,16 @@ cards[6].style.visibility = 'hidden';
     let el_vis = document.getElementById('top_'+top);
     el_vis.style.visibility = 'visible';
     }
+   
+
+    // function topTransportations(top){
+    //     let cards = [document.getElementById('top_1'),document.getElementById('top_3'),document.getElementById('top_6')];
+    //     for(let i = 0; i<cards.length; ++i ){
+    //         cards[i].setAttribute('style', 'visibility: hidden;');
     
-
-   
-
-
-   
+    
+    //     }
+    //     let el_vis = document.getElementById('top_'+top);
+    //     el_vis.style.setAttribute('style', 'visibility: visible;');
+    //     }
+       

@@ -1,5 +1,10 @@
+p, ul, h4{
+    color:  #e7d5d5;
+}
+
 .headerCenter{
     text-align: center;
+    margin-top: 2rem;
 }
 .container{
     margin-top: 5rem;
@@ -13,11 +18,19 @@
 }
 .infoCard{
     margin: 2rem;
-    background-color: forestgreen;
+    background-color: #881d2e;
     height: 25rem;
     width: 25rem;
     border-style: solid;
     text-align: left;
+    padding: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-display: #e7d5d5;
+
+}
+.infoCard a{
+    font-weight: 500;
+    color: #5795db;
 }
 .imgCard{
     margin: 2rem;
