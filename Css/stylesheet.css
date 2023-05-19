@@ -121,3 +121,92 @@
   .sidenav1,.sidenav2,.sidenav3,.sidenav4,.sidenav5,.sidenav6,.sidenav7,.sidenav8 {padding-top: 15px;}
   .sidenav1 a, .sidenav2 a,.sidenav3 a,.sidenav4 a, .sidenav5 a,.sidenav6 a,.sidenav7 a,.sidenav8 a{font-size: 18px;}
 }
+
+/* for food text inside of the food */
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    height: 90%;
+    z-index: 1;
+    max-width: 1300px;
+    padding: 0 50px 0 50px;
+}
+
+.main__content {
+    color: white;
+    width: 100%;
+}
+
+.main__content h1 {
+    font-size: 2rem;
+    background-color: #fe3b6f;
+    background-image: linear-gradient(to top, #ff087b, #ed1a52);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+
+.main__content h2 {
+    font-size: 4rem;
+    background: #ff8177;
+    background: linear-gradient(to right, lightblue, lightseagreen);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main__content p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main__img--container {
+    text-align: center;
+}
+
+.main__img--card {
+    margin: 10px;
+    height: 450px;
+    width: 450px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.main__img--card1a {
+    margin: 10px;
+    height: 200px;
+    width: 1300px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.main__img--card1b {
+    margin: 10px;
+    height: 200px;
+    width: 1300px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.main__btn{
+    border-radius: 1rem;
+    background-color:#0039a6;
+}
