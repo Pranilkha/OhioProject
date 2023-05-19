@@ -130,16 +130,23 @@ p {
 /* https://codepen.io/markelrayes/pen/ZEGVBZm got help from here */
 /* End Non-Essential  */
 
+#contCent .row{
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* cards */
+.card1{
+  height: 400px;
+  width: 400px;
+  margin: 2rem;
+}
+
 .property-card {
   height: 400px;
   width: 400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: rows;
   position: relative;
   -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -147,7 +154,6 @@ p {
   overflow: hidden;
   -webkit-box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
   box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
-  margin-right: 20%;
 }
 
 .property-image {
@@ -203,11 +209,7 @@ p {
   height: 18em;
 }
 
-.card-divs {
-  margin-top: -10%;
-  margin-right: 55%;
-  height: 600px;
-}
+
 
 .property-image-2 {
   height: 400px;
@@ -221,10 +223,7 @@ p {
   background-image:url('https://www.sfmta.com/sites/default/files/blog/2016/All%20Nighter.jpg');
   background-size: cover;
 }
-.card-divs-2{
-  margin-left: 20%;
-  margin-top: -41.90%;
-}
+
 
 .property-image-3 {
   height: 400px;
@@ -239,15 +238,6 @@ p {
   background-size: cover;
 }
 
-.card-divs-3{
-  margin-left: 70%;
-  margin-top: -55%;
-}
-
-.card-divs-4{
-  margin-left: -37%;
-  margin-top: -25%;
-}
 
 .property-image-4 {
   height: 400px;
@@ -273,10 +263,5 @@ p {
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   background-image:url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F39%2F2021%2F02%2F12%2F102768028_preview-2000.jpg&q=60');
   background-size: cover;
-}
-
-.card-divs-5{
-  margin-top: -55.5%;
-  margin-left: 20%;
 }
 
