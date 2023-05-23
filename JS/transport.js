@@ -6,7 +6,7 @@
 // cards[3].style.visibility = 'hidden';
 // cards[6].style.visibility = 'hidden';
 
-    let cards = [document.getElementById('top_1'),document.getElementById('top_3'),document.getElementById('top_6')];
+    let cards = [document.getElementById('top_3'),document.getElementById('top_6')];
 
     for(let i = 0; i<cards.length; ++i ){
         cards[i].style.visibility = 'hidden';
