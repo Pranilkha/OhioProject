@@ -1,0 +1,31 @@
+.container{
+    padding: 5rem;
+}
+.container .row{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card1{
+    background-color: rgb(216, 178, 178);
+    height: 25rem;
+    width: 35rem;
+    border-radius: .5rem;
+    justify-content: center;
+    padding: 2rem;
+}
+.controls{
+    padding: 1rem;
+}
+label{
+    padding: 1rem;
+    font-size: 0.8rem;
+    justify-self: end;
+}
+label[for='email']{
+    margin-left: -5rem;
+}
+
+input[type='submit'] {
+    margin: 1rem;
+}
