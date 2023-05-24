@@ -1,0 +1,16 @@
+.cent{
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+.weatherBox{
+    border-radius: 1rem;
+    margin: 2rem;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(83, 128, 136);
+    height: 20rem;
+    width: auto;
+    padding: 2rem;
+}
